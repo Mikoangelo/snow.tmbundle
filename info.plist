@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Snot</string>
+	<key>ordering</key>
+	<array>
+		<string>F75AF252-7C89-410D-9307-F6DF59A3444D</string>
+		<string>83F7EB45-7359-4463-A88C-0B0FD7291078</string>
+		<string>A9B09640-5B01-42D5-ABC3-DEBA04189C88</string>
+		<string>F8A0E0DA-0547-4F03-AD85-FF17AB8227C7</string>
+	</array>
+	<key>uuid</key>
+	<string>14A6DBD9-AD4E-4DA7-B95C-93317D885D70</string>
+</dict>
+</plist>
