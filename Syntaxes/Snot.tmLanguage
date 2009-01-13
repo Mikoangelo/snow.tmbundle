@@ -11,7 +11,7 @@
 	<key>foldingStopMarker</key>
 	<string>\*\*/|^\s*\}</string>
 	<key>name</key>
-	<string>Snot</string>
+	<string>Snow</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -54,7 +54,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\&lt;|\&gt;|\&lt;=|\&gt;=|=|!=</string>
+			<string>\&lt;|\&gt;|\&lt;=|≤|\&gt;=|≥|=|!=|≠</string>
 			<key>name</key>
 			<string>keyword.operator.relational</string>
 		</dict>
@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>return|if|else|end|switch|case|break|while</string>
+			<string>return|if|elsif|else|end|switch|case|break|while</string>
 			<key>name</key>
 			<string>keyword.control</string>
 		</dict>
@@ -87,6 +87,12 @@
 			<string>self</string>
 			<key>name</key>
 			<string>variable.language</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^[ \t]*(self)?\.([A-Za-z][a-zA-Z0-9_!?]*)</string>
+			<key>name</key>
+			<string>variable.instance</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -128,7 +134,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.snot</string>
+	<string>source.snow</string>
 	<key>uuid</key>
 	<string>F75AF252-7C89-410D-9307-F6DF59A3444D</string>
 </dict>
