@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:function}: (${2:parameters}) {
-	$0
-}</string>
+	<string>${1/(.+)/(?1:[)/}${1:parameters}${1/(.+)/(?1:] )/}{$0}</string>
+	<key>keyEquivalent</key>
+	<string>^[</string>
 	<key>name</key>
 	<string>Function</string>
+	<key>scope</key>
+	<string>source.snow</string>
 	<key>tabTrigger</key>
-	<string>func</string>
+	<string>:</string>
 	<key>uuid</key>
-	<string>83F7EB45-7359-4463-A88C-0B0FD7291078</string>
+	<string>1E58B646-D3FE-4FE3-9D71-50E4EF008A72</string>
 </dict>
 </plist>
